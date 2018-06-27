@@ -1,5 +1,5 @@
 <?php
-// getCityState.php from Eric
+// getCityState.php from Eric- this should be growing as new zipcodes are added.
 //  Gets the form value from the "zip" widget, looks up the 
 //  city and state for that zip code, and prints it for the
 //  form
