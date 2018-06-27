@@ -1,0 +1,44 @@
+/* 
+	 
+	 <!--Greg Wegner  Web and Distributed programming-->
+     <!--Assignment 6, Summer 2018-->
+     <!--Contacts-->
+*/
+/*my code*/
+h1 {
+    color: blue;
+}
+p {
+    color: green;
+}
+body {
+    background-color: powderblue;
+}
+h2 {
+    color: blue;
+}
+p {
+    color: green;
+}
+body {
+    background-color: powderblue;
+}
+h3 {
+    color: blue;
+}
+p {
+    color: green;
+}
+body {
+    background-color: powderblue;
+}
+h4 {
+    color: black;
+}
+p {
+    color: green;
+}
+/*my code*/
+.hide-me{
+display: none;
+}
