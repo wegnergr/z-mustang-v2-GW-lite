@@ -101,5 +101,5 @@
   if (array_key_exists($zip, $cityState))
     print $cityState[$zip];
   else
-    print "There must be an error then ";
+    print "There must be an error then";
 ?>
