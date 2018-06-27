@@ -94,7 +94,8 @@
     "60195" => "Schaumburg, IL",
     "60196" => "Schaumburg, IL",
     "60197" => "Carol Stream, IL",
-    "60199" => "Carol Stream, IL"
+    "60199" => "Carol Stream, IL",
+    "60544" => "Plainfield, IL"
   );
   $zip = $_GET["zip"];
   if (array_key_exists($zip, $cityState))
