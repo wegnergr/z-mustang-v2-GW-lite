@@ -14,45 +14,45 @@
         <script src="mustang-v2-GW-lite.js"></script>
     </head>
     <body onload="initApplication()">
-        <h1>Mustang v2.2 Lite</h1> 
+        <h1>Mustang v2.2a GW Lite Application</h1> 
             <table>
             <tr>
                 <td>Name:</td>
                 <td> 
-                    <input id="nameID" type="text" value="" size="20">
+                    <input id="nameID" type="text" value="" size="30">
                 </td>
             </tr>
             <tr>
                 <td>Email:</td>
                 <td>
-                    <input id="emailID" type="text" value="" size="20">
+                    <input id="emailID" type="text" value="" size="30">
                 </td>
             </tr>
             <tr>
                 <td>City:</td>
                 <td>
-                    <input id="cityID" type="text" value="" size="20">
+                    <input id="cityID" type="text" value="" size="30">
                 </td>
             </tr>
             <tr>
                 <td>State:</td>
                 <td>
-                    <input id="stateID" type="text" value="" size="20" onkeypress="keyPressed()">
+                    <input id="stateID" type="text" value="" size="30" onkeypress="keyPressed()">
                 </td>
             </tr>
             <tr>
                 <td>Zip</td>
                 <td>
-                    <input id="zipID" type="text" value="" size="20" onfocus="zipFocusFunction()" onblur="zipBlurFunction()">
+                    <input id="zipID" type="text" value="" size="30" onfocus="zipFocusFunction()" onblur="zipBlurFunction()">
                 </td>
             </tr>
             <tr>
-                <td><button type="button" onclick="previous()">Previous</button></td>
-                <td><button type="button" autofocus onclick="next()">Next</button>
+                <td><button type="button" onclick="previous()">Previous Record</button></td>
+                <td><button type="button" autofocus onclick="next()">Next Record</button>
                 </td>
             <tr>
-                <td><button type="button" onclick="add()">New</button></td>
-                <td><button type="button" onclick="remove()">Delete</button>
+                <td><button type="button" onclick="add()">New Record</button></td>
+                <td><button type="button" onclick="remove()">Delete Record</button>
             </td>
             </tr>
         </table>
