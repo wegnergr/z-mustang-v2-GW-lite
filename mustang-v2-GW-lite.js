@@ -52,8 +52,20 @@ function remove() {
     // Todo: Implement delete functionality by deleting element from array.
 }
 
+function zipFocusFunction() {
+    console.log('focusFunction()');
+
+    // Todo: Remove the function as it is not needed.
+}
+
 function zipBlurFunction() {
     getPlace();
+}
+
+function keyPressed() {
+    console.log('keyPressed()');
+
+    // This type of function should be useful in search as it implements keyPressed.
 }
 
 function getPlace() {
@@ -85,7 +97,7 @@ function initApplication() {
 }
 
 function loadIndex() {
-    // Load the Mustang index file. Actually loads index from InitApplication.
+    // Load the Mustang index file.
     var indexRequest = new XMLHttpRequest();
     indexRequest.open('GET', 'https://mustang-index.azurewebsites.net/index.json');
     indexRequest.onload = function() {
