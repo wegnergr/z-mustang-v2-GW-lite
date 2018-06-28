@@ -13,8 +13,6 @@ function viewCurrentContact() {
     document.getElementById("cityID").value = currentContact.city;   
     document.getElementById("stateID").value = currentContact.state;
     document.getElementById("zipID").value = currentContact.zip;  
-    document.getElementById("favoriteHobby").value = currentContact.favoriteHobby;  
-    document.getElementById("biggestFear").value = currentContact.biggestFear;  
 
     // Todo: Add additional fields.
     document.getElementById("statusID").innerHTML = "Status: Viewing contact " + (currentContactIndex+1) + " of " + contactArray.length;
