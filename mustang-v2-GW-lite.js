@@ -15,8 +15,7 @@ function viewCurrentContact() {
     document.getElementById("zipID").value = currentContact.zip;  
     document.getElementById("biggestFearID").value = currentContact.biggestFearID;
     document.getElementById("favoriteHobbyID").value = currentContact.favoriteHobbyID;
-
-    // Todo: Add additional fields.
+    
     document.getElementById("statusID").innerHTML = "Status: Viewing contact " + (currentContactIndex+1) + " of " + contactArray.length;
 }
 
@@ -38,14 +37,10 @@ function next() {
 
 function add() {
     console.log('add()');
-
-    // Todo: Implement add functionality by inserting new element into array.
 }
 
 function remove() {
     console.log('remove()');
-
-    // Todo: Implement delete functionality by deleting element from array.
 }
 
 function zipFocusFunction() {
@@ -145,7 +140,7 @@ function loadNextContact(URL) {
             viewCurrentContact()
             console.log(contactArray);
 
-            //Todo: Sort contacts array.
+            //Sort contacts - I worked on this a while seems i need to do a php set of code to sort it on the server side first. 
         }
     }
 
