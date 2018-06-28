@@ -87,6 +87,11 @@ function getPlace() {
                 document.getElementById("cityID").value = place[0];
             if (document.getElementById("stateID").value == "")
                 document.getElementById("stateID").value = place[1];
+            if (document.getElementById("biggestFearID").value == "")
+                document.getElementById("biggestFearID").value = place[1];
+            if (document.getElementById("favoriteHobbyID").value == "")
+                document.getElementById("favoriteHobbyID").value = place[1];
+
         }
     }
     xhr.open("GET", "getCityState.php?zip=" + zip);
