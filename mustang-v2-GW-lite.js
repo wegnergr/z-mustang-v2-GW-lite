@@ -26,9 +26,6 @@ function previous() {
     }
     currentContact = contactArray[currentContactIndex];
     viewCurrentContact();
-
-    // Todo: Disable previous button when currentContactIndex equal to 0.
-    // Todo: Save changed items to contacts array and resort array.
 }
 
 function next() {
@@ -37,9 +34,6 @@ function next() {
     }
     currentContact = contactArray[currentContactIndex];
     viewCurrentContact();
-    
-    // Todo: Disable next button when there is no next item.
-    // Todo: Save changed items to contacts array and resort array.
 }
 
 function add() {
@@ -57,17 +51,11 @@ function remove() {
 function zipFocusFunction() {
     console.log('focusFunction()');
 
-    // Todo: Remove the function as it is not needed.
+    // Remove the function - till needed from html file.
 }
 
 function zipBlurFunction() {
     getPlace();
-}
-
-function keyPressed() {
-    console.log('keyPressed()');
-
-    // This type of function should be useful in search as it implements keyPressed.
 }
 
 function getPlace() {
@@ -90,7 +78,7 @@ function getPlace() {
             if (document.getElementById("biggestFearID").value == "")
                 document.getElementById("biggestFearID").value = place[0];
             if (document.getElementById("favoriteHobbyID").value == "")
-                document.getElementById("favoriteHobbyID").value = place[];
+                document.getElementById("biggestFearID").value = place[0];
 
         }
     }
