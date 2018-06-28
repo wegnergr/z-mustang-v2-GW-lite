@@ -54,8 +54,20 @@ function remove() {
     // Todo: Implement delete functionality by deleting element from array.
 }
 
+function zipFocusFunction() {
+    console.log('focusFunction()');
+
+    // Todo: Remove the function as it is not needed.
+}
+
 function zipBlurFunction() {
     getPlace();
+}
+
+function keyPressed() {
+    console.log('keyPressed()');
+
+    // This type of function should be useful in search as it implements keyPressed.
 }
 
 function getPlace() {
@@ -78,7 +90,7 @@ function getPlace() {
             if (document.getElementById("biggestFearID").value == "")
                 document.getElementById("biggestFearID").value = place[0];
             if (document.getElementById("favoriteHobbyID").value == "")
-                document.getElementById("favoriteHobbyID").value = place[0];
+                document.getElementById("favoriteHobbyID").value = place[];
 
         }
     }
